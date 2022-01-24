@@ -28,85 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnUpisKorisnika = new System.Windows.Forms.Button();
+            this.btnUpisKnjige = new System.Windows.Forms.Button();
+            this.btnPregledKnjiga = new System.Windows.Forms.Button();
+            this.btnPregledKorisnika = new System.Windows.Forms.Button();
+            this.btnPretrazivanje = new System.Windows.Forms.Button();
+            this.btnPosudba = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnUpisKorisnika
             // 
-            this.button1.Location = new System.Drawing.Point(190, 114);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 49);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Upis korisnika";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnUpisKorisnika.Location = new System.Drawing.Point(190, 114);
+            this.btnUpisKorisnika.Name = "btnUpisKorisnika";
+            this.btnUpisKorisnika.Size = new System.Drawing.Size(169, 49);
+            this.btnUpisKorisnika.TabIndex = 0;
+            this.btnUpisKorisnika.Text = "Upis korisnika";
+            this.btnUpisKorisnika.UseVisualStyleBackColor = true;
+            this.btnUpisKorisnika.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnUpisKnjige
             // 
-            this.button2.Location = new System.Drawing.Point(190, 169);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(169, 49);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Upis knjige";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnUpisKnjige.Location = new System.Drawing.Point(190, 169);
+            this.btnUpisKnjige.Name = "btnUpisKnjige";
+            this.btnUpisKnjige.Size = new System.Drawing.Size(169, 49);
+            this.btnUpisKnjige.TabIndex = 1;
+            this.btnUpisKnjige.Text = "Upis knjige";
+            this.btnUpisKnjige.UseVisualStyleBackColor = true;
+            this.btnUpisKnjige.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnPregledKnjiga
             // 
-            this.button3.Location = new System.Drawing.Point(401, 169);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(169, 49);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Pregled knjiga";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnPregledKnjiga.Location = new System.Drawing.Point(401, 169);
+            this.btnPregledKnjiga.Name = "btnPregledKnjiga";
+            this.btnPregledKnjiga.Size = new System.Drawing.Size(169, 49);
+            this.btnPregledKnjiga.TabIndex = 2;
+            this.btnPregledKnjiga.Text = "Pregled knjiga";
+            this.btnPregledKnjiga.UseVisualStyleBackColor = true;
+            this.btnPregledKnjiga.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btnPregledKorisnika
             // 
-            this.button4.Location = new System.Drawing.Point(401, 114);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(169, 49);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Pregled korisnika";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnPregledKorisnika.Location = new System.Drawing.Point(401, 114);
+            this.btnPregledKorisnika.Name = "btnPregledKorisnika";
+            this.btnPregledKorisnika.Size = new System.Drawing.Size(169, 49);
+            this.btnPregledKorisnika.TabIndex = 3;
+            this.btnPregledKorisnika.Text = "Pregled korisnika";
+            this.btnPregledKorisnika.UseVisualStyleBackColor = true;
+            this.btnPregledKorisnika.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // btnPretrazivanje
             // 
-            this.button5.Location = new System.Drawing.Point(190, 297);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(380, 49);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Pretraživanje";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnPretrazivanje.Location = new System.Drawing.Point(190, 297);
+            this.btnPretrazivanje.Name = "btnPretrazivanje";
+            this.btnPretrazivanje.Size = new System.Drawing.Size(380, 49);
+            this.btnPretrazivanje.TabIndex = 4;
+            this.btnPretrazivanje.Text = "Pretraživanje";
+            this.btnPretrazivanje.UseVisualStyleBackColor = true;
+            this.btnPretrazivanje.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // btnPosudba
             // 
-            this.button6.Location = new System.Drawing.Point(190, 242);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(380, 49);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Posudba";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnPosudba.Location = new System.Drawing.Point(190, 242);
+            this.btnPosudba.Name = "btnPosudba";
+            this.btnPosudba.Size = new System.Drawing.Size(380, 49);
+            this.btnPosudba.TabIndex = 5;
+            this.btnPosudba.Text = "Posudba";
+            this.btnPosudba.UseVisualStyleBackColor = true;
+            this.btnPosudba.Click += new System.EventHandler(this.button6_Click);
             // 
             // Biblioteka
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPosudba);
+            this.Controls.Add(this.btnPretrazivanje);
+            this.Controls.Add(this.btnPregledKorisnika);
+            this.Controls.Add(this.btnPregledKnjiga);
+            this.Controls.Add(this.btnUpisKnjige);
+            this.Controls.Add(this.btnUpisKorisnika);
             this.Name = "Biblioteka";
             this.Text = "Biblioteka";
             this.ResumeLayout(false);
@@ -115,12 +115,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnUpisKorisnika;
+        private System.Windows.Forms.Button btnUpisKnjige;
+        private System.Windows.Forms.Button btnPregledKnjiga;
+        private System.Windows.Forms.Button btnPregledKorisnika;
+        private System.Windows.Forms.Button btnPretrazivanje;
+        private System.Windows.Forms.Button btnPosudba;
     }
 }
 
