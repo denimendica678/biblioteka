@@ -46,47 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Biblioteka.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Biblioteka.Designer.cs">
-      <DependentUpon>Biblioteka.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UpisKorisnik.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpisKorisnik.Designer.cs">
-      <DependentUpon>UpisKorisnik.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UpisKnjiga.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpisKnjiga.Designer.cs">
-      <DependentUpon>UpisKnjiga.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PregledKnjiga.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PregledKnjiga.Designer.cs">
-      <DependentUpon>PregledKnjiga.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PregledKorisnika.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PregledKorisnika.Designer.cs">
-      <DependentUpon>PregledKorisnika.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Posudbe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Posudbe.Designer.cs">
-      <DependentUpon>Posudbe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Pretrazivanje.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pretrazivanje.Designer.cs">
-      <DependentUpon>Pretrazivanje.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Knjige.cs" />
     <Compile Include="Korisnici.cs" />
@@ -94,26 +58,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stanje.cs" />
-    <EmbeddedResource Include="Biblioteka.resx">
-      <DependentUpon>Biblioteka.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpisKorisnik.resx">
-      <DependentUpon>UpisKorisnik.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpisKnjiga.resx">
-      <DependentUpon>UpisKnjiga.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PregledKnjiga.resx">
-      <DependentUpon>PregledKnjiga.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PregledKorisnika.resx">
-      <DependentUpon>PregledKorisnika.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Posudbe.resx">
-      <DependentUpon>Posudbe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pretrazivanje.resx">
-      <DependentUpon>Pretrazivanje.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

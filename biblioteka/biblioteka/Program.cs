@@ -16,7 +16,7 @@ namespace biblioteka
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Biblioteka());
+            Application.Run(new Form1());
         }
     }
 }
