@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace biblioteka
+{
+    internal class Stanje
+    {
+        int id_knjige, kolicina;
+
+        public Stanje(int id_knjige, int kolicina)
+        {
+            this.id_knjige = id_knjige;
+            this.kolicina = kolicina;
+        }
+
+        public int Id_knjige { get => id_knjige; set => id_knjige = value; }
+        public int Kolicina { get => kolicina; set => kolicina = value; }
+    }
+}

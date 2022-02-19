@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1ACE8BE3-239D-4CB9-AAEA-377F8017FBE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>biblioteka</RootNamespace>
+    <AssemblyName>biblioteka</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Biblioteka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Biblioteka.Designer.cs">
+      <DependentUpon>Biblioteka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpisKorisnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpisKorisnik.Designer.cs">
+      <DependentUpon>UpisKorisnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpisKnjiga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpisKnjiga.Designer.cs">
+      <DependentUpon>UpisKnjiga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PregledKnjiga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PregledKnjiga.Designer.cs">
+      <DependentUpon>PregledKnjiga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PregledKorisnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PregledKorisnika.Designer.cs">
+      <DependentUpon>PregledKorisnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Posudbe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Posudbe.Designer.cs">
+      <DependentUpon>Posudbe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pretrazivanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pretrazivanje.Designer.cs">
+      <DependentUpon>Pretrazivanje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Knjige.cs" />
+    <Compile Include="Korisnici.cs" />
+    <Compile Include="Posudba.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stanje.cs" />
+    <EmbeddedResource Include="Biblioteka.resx">
+      <DependentUpon>Biblioteka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpisKorisnik.resx">
+      <DependentUpon>UpisKorisnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpisKnjiga.resx">
+      <DependentUpon>UpisKnjiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PregledKnjiga.resx">
+      <DependentUpon>PregledKnjiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PregledKorisnika.resx">
+      <DependentUpon>PregledKorisnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posudbe.resx">
+      <DependentUpon>Posudbe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pretrazivanje.resx">
+      <DependentUpon>Pretrazivanje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
